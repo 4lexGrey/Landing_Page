@@ -6,7 +6,8 @@ body {
 header {
     margin: 0px;
     padding: 24px 100px;
-    background-color: #575757;
+    background-color: #5a5a5a;
+    color: #c9c9c9;
     display: flex;
     justify-content: space-between;
     align-items: center;
