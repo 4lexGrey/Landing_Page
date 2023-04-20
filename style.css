@@ -1,0 +1,21 @@
+body {
+    padding: 0px;
+    margin: 0px;;
+}
+
+header {
+    margin: 0px;
+    padding: 24px 100px;
+    background-color: #575757;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 18px;
+}
