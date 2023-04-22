@@ -28,3 +28,30 @@ ul {
     justify-content: space-between;
     padding: 24px 100px;
 }
+
+.info {
+    background-color: #c9c9c9;
+    padding: 24px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.boxes {
+    display: flex;
+    gap: 24px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    border: 3px solid #5a5a5a;
+    border-radius: 16px;
+    width: 100px;
+    height: 100px;
+}
