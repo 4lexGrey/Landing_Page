@@ -55,3 +55,17 @@ ul {
     width: 100px;
     height: 100px;
 }
+
+.quote {
+    background-color: #bdbdbd;
+    padding: 56px 216px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.aurthor {
+    align-self: flex-end;
+}
