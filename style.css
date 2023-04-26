@@ -1,6 +1,8 @@
 body {
     padding: 0px;
     margin: 0px;;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -68,4 +70,28 @@ ul {
 
 .aurthor {
     align-self: flex-end;
+}
+
+.sign {
+    background-color: #c9c9c9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.package {
+    background-color: #5a5a5a;
+    padding: 36px 70px;
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 160px;
+}
+
+p {
+    margin: 0px;
+}
+
+button {
+    background-color: #5a5a5a;
 }
