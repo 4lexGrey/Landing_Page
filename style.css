@@ -3,6 +3,7 @@ body {
     margin: 0px;;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 header {
@@ -28,13 +29,14 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 24px 100px;
+    padding: 24px 100px 50px 100px;
 }
 
 .info {
     background-color: #c9c9c9;
-    padding: 24px 200px;
+    padding: 24px 200px 40px 200px;
     display: flex;
+    align-items: stretch;
     flex-direction: column;
     align-items: center;
     gap: 24px;
@@ -81,6 +83,7 @@ ul {
 
 .package {
     background-color: #5a5a5a;
+    border-radius: 12px;
     padding: 36px 70px;
     margin: 40px;
     display: flex;
@@ -94,4 +97,13 @@ p {
 
 button {
     background-color: #5a5a5a;
+    border-radius: 6px;
+}
+
+footer {
+    background-color: #5a5a5a;
+    padding: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
